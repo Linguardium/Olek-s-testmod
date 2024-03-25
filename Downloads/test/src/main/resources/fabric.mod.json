@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "testcyl1",
+  "version": "3443",
+  "name": "TEST",
+  "description": "TEST.",
+  "authors": ["Your Name"],
+  "contact": {"homepage": "", "sources": ""},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.entityoutliner.EntityOutliner"]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  },
+  "mixins": [
+    "Select"
+  ]
+}
